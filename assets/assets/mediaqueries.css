@@ -36,7 +36,9 @@
 }
 
 .comunidad-container {
+    display: flex;
 flex-direction: column;
+
 
 
 }
@@ -49,6 +51,16 @@ flex-direction: column;
    gap: 45px;
 
 }
+
+.texto p {
+    font-size: 22px;
+    width: 80%;
+min-width: unset;
+    color:black;
+    font-weight: 800px;
+    display: flex;
+}
+
 
 .datos {
     margin-top: 20px;
@@ -122,13 +134,15 @@ display: none;
 
 @media (max-widht: 576px) {
 
-#hero-info h1 {
+.hero-info h1 {
     width: 70%;
-    max-width: unset;
+    max-width: 400px;
+    display: flex;
+    padding: 30px;
     
 }
 
-#info p {
+.hero-info p {
     max-width: unset;
 }
 #info h2 {
@@ -138,6 +152,9 @@ display: none;
 
 .texto p {
     width: 70%;
+    max-width: 400px;
+    display: flex;
+   
 }
 
 }
