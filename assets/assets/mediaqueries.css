@@ -1,0 +1,143 @@
+@media (max-width:992px) {
+
+
+   
+.hero-info {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.hero-info h1 {
+    width: 100%;
+    max-width: 550px;
+    min-width: unset;
+}
+.hero-info p {
+    width: 75%;
+    max-width: 550px;
+    min-width: unset;
+}
+
+.hero-img {
+    display: none;
+}
+
+#info {
+    max-width: 80%;
+    text-align: center;
+}
+
+#info p {
+    width: 75%;
+}
+
+.comunidad-container {
+flex-direction: column;
+
+
+}
+.texto {
+    width: 70%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   gap: 45px;
+
+}
+
+.datos {
+    margin-top: 20px;
+}
+
+.visitanos {
+    max-width: 80%;
+    background-color: #f5f5f5;
+    gap: 30px;
+
+    
+}
+   .visitanos-texto h2 {
+    color: #51876E;
+    text-align: center;
+   }
+
+   .visitanos-texto {
+    color: #51876E;
+    text-align: center;
+   }
+
+   .visitanos-mapa {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.navbar {
+    gap:20px;
+
+}
+
+
+.navbar-list {
+    gap: 25px;
+    position: absolute;
+    top:82%;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+flex-direction: column;
+background-color: #FAFAFA;
+border-radius: 0px 0px 1rem 1rem;
+padding: 30px;
+align-items: flex-start;
+z-index: 2;
+display: none;
+}
+
+.navbar-list a {
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.menu-icon {
+    display: flex;
+    height: 25px;
+    width: 35px;
+}
+
+.menu-label {
+    display: flex;
+    cursor: pointer;
+  
+}
+
+#menu-toggle:checked + .navbar-list {
+    display: flex;
+}
+
+
+}
+
+@media (max-widht: 576px) {
+
+#hero-info h1 {
+    width: 70%;
+    max-width: unset;
+    
+}
+
+#info p {
+    max-width: unset;
+}
+#info h2 {
+    max-width: unset;
+    width: 90%;
+}
+
+.texto p {
+    width: 70%;
+}
+
+}
