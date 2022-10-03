@@ -157,4 +157,8 @@ display: none;
    
 }
 
+.visitanos-mapa {
+    display: flex;
+    width: 90%;
+    min-width: 400px;
 }
